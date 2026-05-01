@@ -2,4 +2,6 @@ streamlit
 pandas
 yfinance
 ta
-openpyxl
+lxml
+html5lib
+certifi

@@ -1,15 +1,28 @@
 import streamlit as st
-from rsc_engine import calculate_top20
+from rsc_engine import calculate_rsc
 
-st.set_page_config(layout="wide")
+st.set_page_config(page_title="Invertim – RSC", layout="wide")
 
-st.title("📈 Top 20 RSC (SP500 + NASDAQ100)")
+st.title("📈 Top 20 RSCValor")
 
 @st.cache_data(ttl=24 * 3600)
-def get_top20():
-    return calculate_top20()
+def get_rsc():
+    return calculate_rsc()
 
-with st.spinner("Calculando ranking..."):
-    top20 = get_top20()
+with st.spinner("Calculando RSC…"):
+    df = get_rsc()
 
-st.dataframe(top20, use_container_width=True)
+st.dataframe(
+    df.head(20)[
+        [
+            "Ticker",
+            "Date",
+            "Company",
+            "Close",
+            "RSCValor",
+            "GICS Sector",
+            "GICS Sub-Industry",
+        ]
+    ],
+    width='stretch',
+)

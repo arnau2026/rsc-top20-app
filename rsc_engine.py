@@ -5,6 +5,7 @@ import certifi
 import yfinance as yf
 from ta.trend import WMAIndicator
 from datetime import datetime
+import io
 
 # =========================================================
 # CONFIGURACIÓN GLOBAL
@@ -23,10 +24,12 @@ SSL_CONTEXT = ssl.create_default_context(cafile=certifi.where())
 # =========================================================
 
 def fetch_tables(url: str) -> list[pd.DataFrame]:
-    """Descarga HTML con headers (anti-403) y devuelve tablas."""
     req = urllib.request.Request(url, headers=HEADERS)
-    html = urllib.request.urlopen(req, context=SSL_CONTEXT).read()
-    return pd.read_html(html)
+    html_bytes = urllib.request.urlopen(req, context=SSL_CONTEXT).read()
+
+    # ✅ Convertir bytes → texto → buffer (evita FileNotFoundError en Cloud)
+    html_str = html_bytes.decode("utf-8", errors="ignore")
+    return pd.read_html(io.StringIO(html_str), flavor="lxml")
 
 
 # =========================================================

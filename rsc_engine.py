@@ -1,48 +1,81 @@
-# rsc_engine.py
 import pandas as pd
 import yfinance as yf
 from ta.trend import WMAIndicator
 from datetime import datetime
 
-def calculate_top20(input_file="Inputfile.xlsx"):
+# =========================================================
+# UNIVERSO AUTOMÁTICO: S&P 500 + NASDAQ-100
+# =========================================================
 
-    combined = pd.read_excel(input_file, engine="openpyxl")
-    combined.columns = ["Ticker", "Company", "GICS Sector", "GICS Sub-Industry"]
-    combined["Ticker"] = combined["Ticker"].str.replace(".", "-", regex=False)
-    combined = combined.drop_duplicates("Ticker").sort_values("Ticker")
+def load_universe():
+    url_sp500 = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+    sp500 = pd.read_html(url_sp500)[0]
 
-    tickers = combined["Ticker"].tolist()
+    sp500_df = sp500[["Symbol", "Security", "GICS Sector", "GICS Sub-Industry"]]
+    sp500_df["Symbol"] = sp500_df["Symbol"].str.replace(".", "-", regex=False)
+    sp500_df.columns = ["Ticker", "Company", "Sector", "Industry"]
 
-    data_stocks = yf.download(
-        tickers, period="5y", interval="1mo", group_by="ticker"
+    url_ndx = "https://en.wikipedia.org/wiki/Nasdaq-100"
+    nasdaq = pd.read_html(url_ndx)[4]
+
+    nasdaq_df = nasdaq[["Ticker", "Company"]]
+    nasdaq_df["Sector"] = "Unknown"
+    nasdaq_df["Industry"] = "Unknown"
+
+    universe = pd.concat([sp500_df, nasdaq_df], ignore_index=True)
+    universe = universe.drop_duplicates(subset="Ticker")
+
+    return universe
+
+
+# =========================================================
+# TOP 20 RSC
+# =========================================================
+
+def calculate_top20():
+    universe = load_universe()
+    tickers = universe["Ticker"].tolist()
+
+    prices = yf.download(
+        tickers,
+        period="5y",
+        interval="1mo",
+        group_by="ticker",
+        threads=True
     )
-    data_fut = (
-        yf.download("ES=F", period="5y", interval="1d")["Close"]
-        .resample("ME").last()
-    )
 
-    rsc_results = []
+    sp500 = yf.download("ES=F", period="5y", interval="1d")["Close"]
+    sp500 = sp500.resample("ME").last()
+
+    results = []
+    base_period = 10
+    smooth = 8
+
     for ticker in tickers:
         try:
-            close = data_stocks[ticker]["Close"].dropna()
-            df = pd.DataFrame({"Close": close})
-            df["ES_Close"] = data_fut.shift(-1).reindex(df.index, method="ffill")
+            close = prices[ticker]["Close"].dropna()
+            if close.empty:
+                continue
 
-            df["Cociente"] = df["Close"] / df["ES_Close"]
-            df["Baseprice"] = df["Cociente"].rolling(10).mean()
-            df["RSC0"] = ((df["Cociente"] / df["Baseprice"]) - 1) * 10
-            df["RSC"] = WMAIndicator(df["RSC0"], window=8).wma()
+            df = pd.DataFrame({"Close": close})
+            df["SP"] = sp500.reindex(df.index, method="ffill")
+            df["Ratio"] = df["Close"] / df["SP"]
+            df["Base"] = df["Ratio"].rolling(base_period).mean()
+            df["RSC0"] = (df["Ratio"] / df["Base"] - 1) * 10
+            df["RSC"] = WMAIndicator(df["RSC0"], window=smooth).wma()
 
             last = df.iloc[-1]
-            rsc_results.append({
+            results.append({
                 "Ticker": ticker,
-                "Close": round(last["Close"], 2),
-                "RSCValor": round(last["RSC"], 4)
+                "Price": round(last["Close"], 2),
+                "RSC": round(last["RSC"], 4),
             })
-        except:
-            pass
 
-    rsc_df = pd.DataFrame(rsc_results).merge(combined, on="Ticker")
-    rsc_df["Date"] = datetime.now().strftime("%Y-%m-%d")
+        except Exception:
+            continue
 
-    return rsc_df.sort_values("RSCValor", ascending=False).head(20)
+    rsc = pd.DataFrame(results)
+    rsc = rsc.merge(universe, on="Ticker", how="left")
+    rsc["Date"] = datetime.now().strftime("%Y-%m-%d")
+
+    return rsc.sort_values("RSC", ascending=False).head(20)

@@ -34,7 +34,7 @@ hora = now.strftime("%H:%M")
 st.title(f"📈 Acciones USA ordenadas a día {fecha} y hora {hora}")
 
 # ==================================================
-# RSC – CÁLCULO
+# CÁLCULO RSC
 # ==================================================
 
 @st.cache_data(ttl=24 * 3600)
@@ -45,22 +45,23 @@ with st.spinner("Calculando ranking RSC..."):
     df = get_rsc()
 
 # ==================================================
-# LIMPIEZA + RANKING
+# LIMPIEZA Y RANKING
 # ==================================================
 
 df = df.reset_index(drop=True)
 df.insert(0, "Rank", range(1, len(df) + 1))
 
 # ==================================================
-# LINK A TRADINGVIEW POR TICKER ✅
+# TICKER COMO LINK A TRADINGVIEW ✅
 # ==================================================
 
 df["Ticker"] = df["Ticker"].apply(
-    lambda x: f'<a href="https://www.tradingview.com/chart/?symbol={x}" target="_blank">{x}</a>'
+    lambda x: f'<a href="https://www.tradingview.com/chart/?symbol={x}" '
+              f'target="_blank" style="color:#1f4fff;font-weight:600;">{x}</a>'
 )
 
 # ==================================================
-# ESTILO → TOP 8 EN VERDE (DARK MODE SAFE)
+# ESTILO – TOP 8 EN VERDE (DARK MODE SAFE)
 # ==================================================
 
 def highlight_top8(row):
@@ -70,32 +71,38 @@ def highlight_top8(row):
         ] * len(row)
     return [""] * len(row)
 
-styled_df = df[
-    [
-        "Rank",
-        "Ticker",
-        "Date",
-        "Company",
-        "Close",
-        "RSCValor",
-        "GICS Sector",
-        "GICS Sub-Industry",
+# ✅ AQUÍ ESTÁ LA CLAVE DEFINITIVA: .hide(axis="index")
+styled_df = (
+    df[
+        [
+            "Rank",
+            "Ticker",
+            "Date",
+            "Company",
+            "Close",
+            "RSCValor",
+            "GICS Sector",
+            "GICS Sub-Industry",
+        ]
     ]
-].style.apply(highlight_top8, axis=1)
+    .style
+    .apply(highlight_top8, axis=1)
+    .hide(axis="index")   # 🔥 elimina para siempre la columna fantasma
+)
 
 # ==================================================
-# MOSTRAR RANKING (HTML habilitado)
+# MOSTRAR RANKING
 # ==================================================
 
 st.subheader("🏆 Ranking completo de acciones USA (RSC)")
 
 st.write(
-    styled_df.to_html(index=False, escape=False),
+    styled_df.to_html(escape=False),
     unsafe_allow_html=True
 )
 
 # ==================================================
-# DESCARGA CSV (sin HTML)
+# DESCARGA CSV (SIN HTML)
 # ==================================================
 
 st.download_button(
@@ -146,13 +153,24 @@ def plot_coppock_market_health():
 
     ax2.plot(df_c.index, df_c["Coppock"], color="blue")
     ax2.axhline(0, color="gray", linestyle="--")
-    ax2.fill_between(df_c.index, df_c["Coppock"], 0, where=cond_mejora, color="green", alpha=0.3)
+
+    ax2.fill_between(
+        df_c.index,
+        df_c["Coppock"],
+        0,
+        where=cond_mejora,
+        color="green",
+        alpha=0.3,
+        label="Régimen favorable"
+    )
 
     ax2.set_title("Guía Coppock – Salud de mercado")
     ax2.grid(True)
+    ax2.legend()
+
     ax2.xaxis.set_major_locator(MonthLocator(interval=3))
     ax2.xaxis.set_major_formatter(DateFormatter("%Y-%m"))
-    plt.setp(ax2.get_xticklabels(), rotation=45)
+    plt.setp(ax2.get_xticklabels(), rotation=45, ha="right")
 
     plt.tight_layout()
     return fig

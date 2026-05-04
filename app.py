@@ -1,6 +1,7 @@
 import streamlit as st
 from rsc_engine import calculate_rsc
 from datetime import datetime
+import pytz
 
 # -------------------------------------------------
 # CONFIGURACIÓN DE PÁGINA
@@ -12,10 +13,12 @@ st.set_page_config(
 )
 
 # -------------------------------------------------
-# TÍTULO DINÁMICO
+# FECHA Y HORA (HORARIO ESPAÑA REAL ✅)
 # -------------------------------------------------
 
-now = datetime.now()
+tz = pytz.timezone("Europe/Madrid")
+now = datetime.now(tz)
+
 fecha = now.strftime("%Y-%m-%d")
 hora = now.strftime("%H:%M")
 
@@ -33,15 +36,14 @@ with st.spinner("Calculando RSC..."):
     df = get_rsc()
 
 # -------------------------------------------------
-# LIMPIEZA VISUAL DEL DATAFRAME
+# LIMPIEZA Y RANKING (ELIMINA ÍNDICE FANTASMA ✅)
 # -------------------------------------------------
 
-# Crear ranking 1..N
 df = df.reset_index(drop=True)
-df.insert(0, "Rank", df.index + 1)
+df.insert(0, "Rank", range(1, len(df) + 1))
 
 # -------------------------------------------------
-# MOSTRAR TODOS LOS RESULTADOS
+# VISUALIZACIÓN LIMPIA
 # -------------------------------------------------
 
 st.dataframe(
@@ -58,6 +60,7 @@ st.dataframe(
         ]
     ],
     width="stretch",
+    hide_index=True,   # ahora sí funciona
 )
 
 # -------------------------------------------------

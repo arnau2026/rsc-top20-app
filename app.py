@@ -22,7 +22,7 @@ st.set_page_config(
 )
 
 # ==================================================
-# FECHA Y HORA (ESPAÑA REAL ✅)
+# FECHA Y HORA (ESPAÑA REAL)
 # ==================================================
 
 tz = pytz.timezone("Europe/Madrid")
@@ -33,7 +33,7 @@ hora = now.strftime("%H:%M")
 st.title(f"📈 Acciones USA ordenadas a día {fecha} y hora {hora}")
 
 # ==================================================
-# CÁLCULO RSC
+# CÁLCULO RSC (CACHE)
 # ==================================================
 
 @st.cache_data(ttl=24 * 3600)
@@ -89,25 +89,36 @@ styled_df = (
     .style
     .apply(highlight_top8, axis=1)
     .format({
-        "Close": "{:,.2f}",     # ✅ 2 decimales
-        "RSCValor": "{:.2f}"    # ✅ 2 decimales
+        "Close": "{:,.2f}",
+        "RSCValor": "{:.2f}"
     })
-    .hide(axis="index")        # ✅ elimina definitivamente la columna fantasma
+    .hide(axis="index")
 )
 
 # ==================================================
-# MOSTRAR RANKING
+# MOSTRAR TABLA CON SCROLL VERTICAL (≈12 FILAS)
 # ==================================================
 
 st.subheader("🏆 Ranking completo de acciones USA (RSC)")
 
-st.write(
-    styled_df.to_html(escape=False),
+table_html = styled_df.to_html(escape=False)
+
+st.markdown(
+    f"""
+    <div style="
+        max-height: 520px;
+        overflow-y: auto;
+        border: 1px solid rgba(255,255,255,0.15);
+        border-radius: 6px;
+    ">
+        {table_html}
+    </div>
+    """,
     unsafe_allow_html=True
 )
 
 # ==================================================
-# DESCARGA CSV (SIN HTML, DATOS LIMPIOS)
+# DESCARGA CSV (DATOS LIMPIOS)
 # ==================================================
 
 st.download_button(
@@ -120,7 +131,7 @@ st.download_button(
 )
 
 # ==================================================
-# SALUD DE MERCADO – GUÍA COPPOCK (S&P 500)
+# SALUD DE MERCADO – GUÍA COPPOCK
 # ==================================================
 
 st.markdown("---")

@@ -90,7 +90,7 @@ styled_df = df[
 st.subheader("🏆 Ranking completo de acciones USA (RSC)")
 
 st.write(
-    styled_df.to_html(escape=False, index=False),
+    styled_df.to_html(index=False, escape=False),
     unsafe_allow_html=True
 )
 

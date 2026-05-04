@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from rsc_engine import calculate_rsc
 
-# --- Tiempo y zonas horarias ---
+# --- Tiempo ---
 from datetime import datetime
 import pytz
 
@@ -13,7 +13,7 @@ from ta.trend import WMAIndicator
 from matplotlib.dates import MonthLocator, DateFormatter
 
 # ==================================================
-# CONFIGURACIÓN DE LA APP
+# CONFIGURACIÓN GENERAL
 # ==================================================
 
 st.set_page_config(
@@ -22,7 +22,7 @@ st.set_page_config(
 )
 
 # ==================================================
-# FECHA Y HORA (ESPAÑA REAL, CEST/CET ✅)
+# FECHA Y HORA (ESPAÑA REAL ✅)
 # ==================================================
 
 tz = pytz.timezone("Europe/Madrid")
@@ -34,7 +34,7 @@ hora = now.strftime("%H:%M")
 st.title(f"📈 Acciones USA ordenadas a día {fecha} y hora {hora}")
 
 # ==================================================
-# RSC – CÁLCULO (CACHE)
+# CÁLCULO RSC (CACHE)
 # ==================================================
 
 @st.cache_data(ttl=24 * 3600)
@@ -52,12 +52,14 @@ df = df.reset_index(drop=True)
 df.insert(0, "Rank", range(1, len(df) + 1))
 
 # ==================================================
-# ESTILO → TOP 8 EN VERDE ✅
+# ESTILO → TOP 8 EN VERDE (DARK MODE SAFE ✅)
 # ==================================================
 
 def highlight_top8(row):
     if row["Rank"] <= 8:
-        return ["background-color: #d4edda"] * len(row)
+        return [
+            "background-color: #1f7a1f; color: #ffffff; font-weight: 600"
+        ] * len(row)
     return [""] * len(row)
 
 styled_df = df[
@@ -74,7 +76,7 @@ styled_df = df[
 ].style.apply(highlight_top8, axis=1)
 
 # ==================================================
-# MOSTRAR RANKING COMPLETO
+# MOSTRAR RANKING
 # ==================================================
 
 st.subheader("🏆 Ranking completo de acciones USA (RSC)")
@@ -82,7 +84,7 @@ st.subheader("🏆 Ranking completo de acciones USA (RSC)")
 st.dataframe(
     styled_df,
     width="stretch",
-    hide_index=True
+    hide_index=True,
 )
 
 # ==================================================
@@ -105,8 +107,10 @@ st.subheader("🩺 Salud del mercado – Guía Coppock (S&P 500)")
 
 @st.cache_data(ttl=24 * 3600)
 def plot_coppock_market_health():
+    # Parámetros Coppock
     R1, R2, med = 16, 14, 10
 
+    # Datos ES=F
     data_daily = yf.download(
         "ES=F",
         period="8y",
@@ -121,6 +125,7 @@ def plot_coppock_market_health():
         .dropna()
     )
 
+    # Cálculo Coppock
     roc1 = data_monthly.pct_change(R1) * 100
     roc2 = data_monthly.pct_change(R2) * 100
     roc_sum = roc1 + roc2
@@ -135,14 +140,21 @@ def plot_coppock_market_health():
 
     cond_mejora = (df_c["Coppock"] >= 0) | (df_c["Coppock"] > df_c["Coppock"].shift(1))
 
-    fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(12, 7), sharex=True)
+    # Gráfico
+    fig, (ax1, ax2) = plt.subplots(
+        2, 1,
+        figsize=(12, 7),
+        sharex=True
+    )
 
+    # Precio
     ax1.plot(df_c.index, df_c["ES=F"], color="black", label="ES=F")
     ax1.set_title("S&P 500 (ES=F) – Mensual")
     ax1.grid(True)
     ax1.legend()
 
-    ax2.plot(df_c.index, df_c["Coppock"], label="Guía Coppock", color="blue")
+    # Coppock
+    ax2.plot(df_c.index, df_c["Coppock"], color="blue", label="Guía Coppock")
     ax2.axhline(0, color="gray", linestyle="--")
 
     ax2.fill_between(
@@ -155,7 +167,7 @@ def plot_coppock_market_health():
         label="Régimen favorable"
     )
 
-    ax2.set_title("Guía Coppock – Salud de mercado")
+    ax2.set_title("Guía Coppock – Salud de Mercado")
     ax2.grid(True)
     ax2.legend()
 

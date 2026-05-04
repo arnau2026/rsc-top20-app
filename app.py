@@ -27,7 +27,6 @@ st.set_page_config(
 
 tz = pytz.timezone("Europe/Madrid")
 now = datetime.now(tz)
-
 fecha = now.strftime("%Y-%m-%d")
 hora = now.strftime("%H:%M")
 
@@ -52,12 +51,11 @@ df = df.reset_index(drop=True)
 df.insert(0, "Rank", range(1, len(df) + 1))
 
 # ==================================================
-# TICKER COMO LINK A TRADINGVIEW ✅
+# TICKER COMO LINK A TRADINGVIEW
 # ==================================================
 
 df["Ticker"] = df["Ticker"].apply(
-    lambda x: f'<a href="https://www.tradingview.com/chart/?symbol={x}" '
-              f'target="_blank" style="color:#1f4fff;font-weight:600;">{x}</a>'
+    lambda x: f'<a href="https://www.tradingview.com/chart/?symbol={x}" target="_blank">{x}</a>'
 )
 
 # ==================================================
@@ -71,7 +69,10 @@ def highlight_top8(row):
         ] * len(row)
     return [""] * len(row)
 
-# ✅ AQUÍ ESTÁ LA CLAVE DEFINITIVA: .hide(axis="index")
+# ==================================================
+# TABLA ESTILIZADA (2 DECIMALES + SIN ÍNDICE)
+# ==================================================
+
 styled_df = (
     df[
         [
@@ -87,7 +88,11 @@ styled_df = (
     ]
     .style
     .apply(highlight_top8, axis=1)
-    .hide(axis="index")   # 🔥 elimina para siempre la columna fantasma
+    .format({
+        "Close": "{:,.2f}",     # ✅ 2 decimales
+        "RSCValor": "{:.2f}"    # ✅ 2 decimales
+    })
+    .hide(axis="index")        # ✅ elimina definitivamente la columna fantasma
 )
 
 # ==================================================
@@ -102,20 +107,20 @@ st.write(
 )
 
 # ==================================================
-# DESCARGA CSV (SIN HTML)
+# DESCARGA CSV (SIN HTML, DATOS LIMPIOS)
 # ==================================================
 
 st.download_button(
     "⬇️ Descargar todas las acciones (CSV)",
-    df.assign(Ticker=df["Ticker"].str.replace(r"<.*?>", "", regex=True))
-      .to_csv(index=False)
-      .encode("utf-8"),
+    df.assign(
+        Ticker=df["Ticker"].str.replace(r"<.*?>", "", regex=True)
+    ).to_csv(index=False).encode("utf-8"),
     file_name=f"acciones_usa_rsc_{fecha}_{hora.replace(':','')}.csv",
     mime="text/csv",
 )
 
 # ==================================================
-# SALUD DE MERCADO – GUÍA COPPOCK
+# SALUD DE MERCADO – GUÍA COPPOCK (S&P 500)
 # ==================================================
 
 st.markdown("---")

@@ -1,0 +1,505 @@
+Symbol,Name,Exchange,Latest,Sector,Industry,"9M %Chg"
+A,"Agilent Technologies",NYSE,135.08,Medical,"Medical Products",-3.84%
+AAPL,"Apple Inc",NASDAQ,327.33,"Computers and Technology","Computer - Micro",+31.53%
+ABBV,"Abbvie Inc",NYSE,246.77,Medical,"Large Cap Pharma",+9.13%
+ABNB,"Airbnb Inc Cl A",NASDAQ,149.04,"Consumer Discretionary","Leisure & Recreation Services",+20.81%
+ABT,"Abbott Laboratories",NYSE,88.97,Medical,"Medical Products",-31.21%
+ACGL,"Arch Capital Grp Ltd",NASDAQ,98.42,Finance,"Insurance - Proprty & Casualty",+10.72%
+ACN,"Accenture Plc",NYSE,137.91,"Computers and Technology","IT Services",-42.16%
+ADBE,"Adobe Systems Inc",NASDAQ,224.11,"Computers and Technology","Computer - Software",-31.91%
+ADI,"Analog Devices",NASDAQ,389.01,"Computers and Technology","Semi Analog & Mixed",+61.99%
+ADM,"Archer Daniels Midland",NYSE,82.05,"Consumer Staples","Agriculture Operations",+29.38%
+ADP,"Automatic Data Processing",NASDAQ,247.35,"Computers and Technology","Internet - Software",-12.41%
+ADSK,"Autodesk Inc",NASDAQ,208.72,"Computers and Technology","Internet - Software",-31.72%
+AEE,"Ameren Corp",NYSE,112.03,Utilities,"Utility - Electric Power",+6.86%
+AEP,"American Electric Power",NASDAQ,133.4,Utilities,"Utility - Electric Power",+12.82%
+AES,"The Aes Corp",NYSE,14.81,Utilities,"Utility - Electric Power",+0.31%
+AFL,"Aflac Inc",NYSE,121.72,Finance,"Insurance - Accident & Health",+11.32%
+AIG,"American International Group",NYSE,76.86,Finance,"Insurance - Multi Line",-4.68%
+AIZ,"Assurant Inc",NYSE,273.73,Finance,"Insurance - Multi Line",+27.97%
+AJG,"Arthur J. Gallagher & Company",NYSE,249.46,Finance,"Insurance - Brokers",-15.36%
+AKAM,"Akamai Technologies",NASDAQ,119.57,"Computers and Technology","Internet - Services",+61.95%
+ALB,"Albemarle Corp",NYSE,123.91,"Basic Materials","Chemical - Diversified",+25.60%
+ALGN,"Align Technology",NASDAQ,181.01,Medical,"Medical - Dental Suppliers",+40.15%
+ALL,"Allstate Corp",NYSE,239.9,Finance,"Insurance - Proprty & Casualty",+20.30%
+ALLE,"Allegion Plc",NYSE,136.05,"Industrial Products","Protection - Safety",-23.42%
+AMAT,"Applied Materials",NASDAQ,573.27,"Computers and Technology","Electronics - Semiconductors",+148.16%
+AMCR,"Amcor Plc",NYSE,43.23,"Industrial Products","Containers - Paper Products",+7.16%
+AMD,"Adv Micro Devices",NASDAQ,527.73,"Computers and Technology","Computer - Integrated Systems",+117.38%
+AME,"Ametek Inc",NYSE,233.75,"Computers and Technology","Electronic Test Equipment",+24.78%
+AMGN,"Amgen Inc",NASDAQ,358.09,Medical,"Medical - Biomedical",+20.51%
+AMP,"Ameriprise Financial Services",NYSE,530.52,Finance,"Finance - Investment Mgmt",+10.30%
+AMT,"American Tower Corp",NYSE,168.92,Finance,"REIT - Equity Trust Other",-11.18%
+AMZN,"Amazon.com Inc",NASDAQ,255.13,Retail-Wholesale,"Internet Commerce",+18.52%
+ANET,"Arista Networks Inc",NYSE,169.92,"Computers and Technology","Internet - Software",+17.79%
+AON,"AON Plc",NYSE,356.86,Finance,"Insurance - Brokers",+0.80%
+AOS,"Smith A.O. Corp",NYSE,60.1,"Industrial Products","Machinery - Electrical",-13.11%
+APA,"Apa Corp",NASDAQ,33.84,Oils-Energy,"Oil - US Exploration & Product",+45.72%
+APD,"Air Products and Chemicals",NYSE,293.81,"Basic Materials","Chemical - Diversified",+14.08%
+APH,"Amphenol Corp",NYSE,157.54,"Computers and Technology","Electronics - Connectors",+23.65%
+APO,"Apollo Asset Management",NYSE,122.09,Finance,"Finance - Investment Mgmt",-3.47%
+APP,"Applovin Corp Cl A",NASDAQ,453.31,"Business Services","Technology Services",-25.05%
+APTV,"Aptiv Plc",NYSE,58.97,"Business Services","Technology Services",-29.53%
+ARE,"Alexandria Real Estate Equities",NYSE,48.89,Finance,"REIT - Equity Trust Other",-36.32%
+ARES,"Ares Management LP",NYSE,124.78,Finance,"Finance - Investment Mgmt",-16.85%
+ATO,"Atmos Energy Corp",NYSE,176.4,Utilities,"Utility - Gas Distribution",-1.09%
+AVB,"Avalonbay Communities",NYSE,191.48,Finance,"REIT - Equity Trust Resident",+4.39%
+AVGO,"Broadcom Ltd",NASDAQ,392.19,"Computers and Technology","Electronics - Semiconductors",+10.93%
+AVY,"Avery Dennison Corp",NYSE,157.16,"Industrial Products","Containers - Paper Products",-1.83%
+AWK,"American Water Works",NYSE,130.76,Utilities,"Utility - Water Supply",-7.89%
+AXON,"Axon Enterprise",NASDAQ,539.93,Aerospace,"Aerospace - Defense Equipment",-16.22%
+AXP,"American Express Company",NYSE,361.59,Finance,"Finance - Misc Services",+9.31%
+AZO,Autozone,NYSE,3005.11,Retail-Wholesale,"Retail - Wholesale Auto Parts",-25.84%
+BA,"Boeing Company",NYSE,219.65,Aerospace,"Aerospace - Defense",+2.04%
+BAC,"Bank of America Corp",NYSE,61.5,Finance,"Finance - Investment Brokers",+17.66%
+BALL,"Ball Corporation",NYSE,60.85,"Industrial Products","Containers - Metal & Glass",+27.32%
+BAX,"Baxter International",NYSE,22.3,Medical,"Medical Products",-1.63%
+BBY,"Best Buy Company",NYSE,85.86,Retail-Wholesale,"Retail - Consumer Electronics",+9.58%
+BDX,"Becton Dickinson and Company",NYSE,155.79,Medical,"Medical - Dental Suppliers",+6.07%
+BEN,"Franklin Resources",NYSE,33.64,Finance,"Finance - Investment Mgmt",+48.07%
+BF.B,"Brown Forman Cl B",NYSE,25.12,"Consumer Staples","Beverages - Alcohol",-7.77%
+BG,"Bunge Ltd",NYSE,115.73,"Basic Materials","Agriculture Products",+24.16%
+BIIB,"Biogen Inc",NASDAQ,196.26,Medical,"Medical - Biomedical",+36.13%
+BKNG,"Booking Holdings",NASDAQ,181.13,Retail-Wholesale,"Internet Commerce",-10.89%
+BKR,"Baker Hughes Company",NASDAQ,56.55,Oils-Energy,"Oil - Field Services",+26.89%
+BLDR,"Builders Firstsource",NYSE,75.76,Retail-Wholesale,"Building Prds Retail - Wsale",-40.25%
+BLK,"Blackrock Inc",NYSE,1091.7,Finance,"Finance - Investment Mgmt",-8.56%
+BMY,"Bristol-Myers Squibb Company",NYSE,58.34,Medical,"Medical - Biomedical",+34.05%
+BNY,"Bank of New York Mellon Corp",NYSE,159.11,Finance,"Banks - Major Regional",+46.14%
+BR,"Broadridge Financial Solutions",NYSE,148.09,"Computers and Technology","Internet - Software",-35.84%
+BRK.B,"Berkshire Hathaway Cl B",NYSE,490.12,Finance,"Insurance - Proprty & Casualty",-1.20%
+BRO,"Brown & Brown",NYSE,67.45,Finance,"Insurance - Brokers",-27.86%
+BSX,"Boston Scientific Corp",NYSE,43.34,Medical,"Medical Products",-55.53%
+BX,"Blackstone Inc",NYSE,127.99,Finance,"Finance - Misc Services",-21.04%
+BXP,"Bxp Inc",NYSE,69.02,Finance,"REIT - Equity Trust Other",-3.89%
+C,"Citigroup Inc",NYSE,133.83,Finance,"Finance - Investment Brokers",+34.24%
+CAH,"Cardinal Health",NYSE,228.98,Medical,"Medical - Dental Suppliers",+47.70%
+CARR,"Carrier Global Corp",NYSE,68.69,Construction,"Building Prdcts - Air Heating",+18.83%
+CASY,"Casey's General Stor",NASDAQ,818.73,Retail-Wholesale,"Retail - Convenience Stores",+45.45%
+CAT,"Caterpillar Inc",NYSE,904.58,"Industrial Products","Machinery - Construct & Mining",+67.72%
+CB,"Chubb Ltd",NYSE,338.5,Finance,"Insurance - Proprty & Casualty",+22.15%
+CBOE,"CBOE Global Markets","NYSE Arca",276.14,Finance,"Securities Exchanges",+14.07%
+CBRE,"CBRE Group",NYSE,142.04,Finance,"Real Estate Operations",-9.39%
+CCI,"Crown Castle",NYSE,79.49,Finance,"REIT - Equity Trust Other",-19.17%
+CCL,"Carnival Corporation Ltd",NYSE,26.87,"Consumer Discretionary","Leisure & Recreation Services",-7.26%
+CDNS,"Cadence Design Sys",NASDAQ,371.16,"Computers and Technology","Computer - Software",+14.43%
+CDW,"CDW Corp",NASDAQ,131.01,"Computers and Technology","IT Services",-12.59%
+CEG,"Constellation Energy Corp",NASDAQ,256.89,Oils-Energy,"Other Alt Energy",-36.39%
+CF,"Cf Industries Holdings",NYSE,116.05,"Basic Materials",Fertilizers,+35.70%
+CFG,"Citizens Financial Group",NYSE,71.07,Finance,"Banks - Northeast",+37.25%
+CHD,"Church & Dwight Company",NYSE,97.1,"Consumer Staples","Consumer Prdts - Misc Staple",+12.60%
+CHRW,"C.H. Robinson Ww",NASDAQ,198.86,Transportation,"Transportation - Services",+55.37%
+CHTR,"Charter Communications",NASDAQ,131.72,"Consumer Discretionary","Cable TV",-50.27%
+CI,"The Cigna Group",NYSE,300.5,Medical,"Medical - HMO",+2.46%
+CIEN,"Ciena Corp",NYSE,417.86,"Computers and Technology","Communications Components",+145.68%
+CINF,"Cincinnati Financial",NASDAQ,174.7,Finance,"Insurance - Proprty & Casualty",+12.56%
+CL,"Colgate-Palmolive Company",NYSE,91.78,"Consumer Staples","Consumer Prdts - Misc Staple",+18.19%
+CLX,"Clorox Company",NYSE,97.71,"Consumer Staples","Consumer Prdts - Misc Staple",-17.35%
+CMCSA,"Comcast Corp A",NASDAQ,23.51,"Consumer Discretionary","Cable TV",-20.78%
+CME,"CME Group",NASDAQ,245.86,Finance,"Securities Exchanges",-8.26%
+CMG,"Chipotle Mexican Grill",NYSE,36.3,Retail-Wholesale,"Retail - Restaurants",-13.05%
+CMI,"Cummins Inc",NYSE,659.81,Auto-Tires-Trucks,"Engines - Internal Combustion",+54.34%
+CMS,"Cms Energy Corp",NYSE,74.38,Utilities,"Utility - Electric Power",-0.82%
+CNC,"Centene Corp",NYSE,66.93,Medical,"Medical - HMO",+87.34%
+CNP,"Centerpoint Energy",NYSE,43.18,Utilities,"Utility - Electric Power",+8.74%
+COF,"Capital One Financial",NYSE,208.78,Finance,"Finance - Consumer Loans",-2.97%
+COHR,"Coherent Corp",NYSE,292,"Business Services","Technology Services",+159.84%
+COIN,"Coinbase Global Cl A",NASDAQ,165.66,Finance,"Finance - Misc Services",-51.00%
+COO,"Cooper Companies",NASDAQ,70.77,Medical,"Medical - Dental Suppliers",+3.03%
+COP,Conocophillips,NYSE,110.74,Oils-Energy,"Oil - US Integrated",+26.11%
+COR,"Cencora Inc",NYSE,302.03,Medical,"Medical Services",-5.01%
+COST,"Costco Wholesale",NASDAQ,922.52,Retail-Wholesale,"Retail - Discount",-3.20%
+CPAY,"Corpay Inc",NYSE,363.99,"Business Services","Financial Transaction Services",+26.81%
+CPRT,"Copart Inc",NASDAQ,27.72,"Business Services","Auction Valuation Services",-37.65%
+CPT,"Camden Property Trust",NYSE,112.13,Finance,"REIT - Equity Trust Resident",+10.72%
+CRH,"CRH Plc ADR",NYSE,104.97,Construction,"Building & Construction - Misc",-12.02%
+CRL,"Charles River Laboratories",NYSE,227.38,Medical,"Medical Services",+32.50%
+CRM,"Salesforce Inc",NYSE,167.32,"Computers and Technology","Internet - Software",-29.03%
+CRWD,"Crowdstrike Holdings",NASDAQ,207.46,"Computers and Technology",Security,+70.62%
+CSCO,"Cisco Systems Inc",NASDAQ,111.58,"Computers and Technology","Computer - Networks",+60.77%
+CSGP,"Costar Group Inc",NASDAQ,28.51,"Computers and Technology","IT Services",-61.78%
+CSX,"CSX Corp",NASDAQ,49.13,Transportation,"Transportation - Rail",+35.44%
+CTAS,"Cintas Corp",NASDAQ,191.38,"Consumer Staples","Textile - Apparel",+3.00%
+CTSH,"Cognizant Tech Sol",NASDAQ,43.14,"Computers and Technology","IT Services",-34.94%
+CTVA,"Corteva Inc",NYSE,83.95,"Consumer Staples","Agriculture Operations",+35.26%
+CVNA,"Carvana Company Cl A",NYSE,70.76,Retail-Wholesale,"Internet Commerce",-1.09%
+CVS,"CVS Corp",NYSE,106.42,Medical,"Medical Services",+32.89%
+CVX,"Chevron Corp",NYSE,179.66,Oils-Energy,"Oil - International Integrated",+18.18%
+D,"Dominion Energy Inc",NYSE,70.92,Utilities,"Utility - Electric Power",+15.12%
+DAL,"Delta Air Lines Inc",NYSE,86,Transportation,"Transportation - Airline",+39.04%
+DASH,"Doordash Cl A",NASDAQ,192.98,"Computers and Technology","Internet - Services",-29.17%
+DD,"Dupont Denemours Inc",NYSE,133.74,"Basic Materials","Chemical - Diversified",+35.72%
+DDOG,"Datadog Cl A",NASDAQ,263.73,"Computers and Technology","Internet - Software",+64.17%
+DE,"Deere & Company",NYSE,587.54,"Industrial Products","Machinery - Farm",+30.66%
+DECK,"Deckers Outdoor Corp",NYSE,107.4,Retail-Wholesale,"Retail - Apparel & Shoes",+11.59%
+DELL,"Dell Technologies Inc",NYSE,398.55,"Computers and Technology","Computer - Micro",+158.24%
+DG,"Dollar General Corp",NYSE,122.41,Retail-Wholesale,"Retail - Discount",+15.10%
+DGX,"Quest Diagnostics Inc",NYSE,204.05,Medical,"Medical - Outpatient & Hm Care",+9.25%
+DHI,"D.R. Horton",NYSE,152.32,Construction,"Building - Residential & Comm",-2.28%
+DHR,"Danaher Corp",NYSE,200.96,Medical,"Medical Services",-2.86%
+DIS,"Walt Disney Company",NYSE,97.4,"Consumer Discretionary","Media Conglomerates",-12.52%
+DLR,"Digital Realty Trust",NYSE,174.18,Finance,"REIT - Equity Trust Other",-0.81%
+DLTR,"Dollar Tree Inc",NASDAQ,127.54,Retail-Wholesale,"Retail - Discount",+32.40%
+DOC,"Healthpeak Properties",NYSE,21.88,Finance,"REIT - Equity Trust Other",+17.75%
+DOV,"Dover Corp",NYSE,212.31,"Industrial Products","Machinery - General Industrial",+29.07%
+DOW,"Dow Inc",NYSE,29.45,"Basic Materials","Chemical - Diversified",+32.57%
+DPZ,"Domino's Pizza Inc",NASDAQ,313.96,Retail-Wholesale,"Retail - Restaurants",-24.79%
+DRI,"Darden Restaurants",NYSE,198.94,Retail-Wholesale,"Retail - Restaurants",+5.57%
+DTE,"Dte Energy Company",NYSE,147.75,Utilities,"Utility - Electric Power",+4.24%
+DUK,"Duke Energy Corp",NYSE,125.22,Utilities,"Utility - Electric Power",-2.35%
+DVA,"Davita Healthcare Partners",NYSE,231.42,Medical,"Medical - Outpatient & Hm Care",+83.83%
+DVN,"Devon Energy Corp",NYSE,42.55,Oils-Energy,"Oil - US Exploration & Product",+30.59%
+DXCM,"Dexcom Inc",NASDAQ,74.39,Medical,"Medical Instruments",+13.89%
+EA,"Electronic Arts Inc",NASDAQ,207.38,"Consumer Discretionary",Gaming,+3.23%
+EBAY,"Ebay Inc",NASDAQ,112.96,Retail-Wholesale,"Internet Commerce",+24.31%
+ECHO,"Echostar Corp",NASDAQ,94.93,"Computers and Technology","Satellite Communication",+24.79%
+ECL,"Ecolab Inc",NYSE,271.46,"Basic Materials","Chemical - Specialty",-1.31%
+ED,"Consolidated Edison Company",NYSE,111.16,Utilities,"Utility - Electric Power",+8.97%
+EFX,"Equifax Inc",NYSE,171.86,"Business Services",Consulting,-24.86%
+EG,"Everest Re Group",NYSE,363.93,Finance,"Insurance - Multi Line",+4.95%
+EIX,"Edison International",NYSE,76.81,Utilities,"Utility - Electric Power",+35.83%
+EL,"Estee Lauder Companies",NYSE,82.87,"Consumer Staples","Cosmetics & Toiletries",-13.03%
+ELV,"Elevance Health Inc",NYSE,389.95,Medical,"Medical Services",+11.90%
+EME,"Emcor Group",NYSE,766.06,Construction,"Building - Heavy Construction",+9.17%
+EMR,"Emerson Electric Company",NYSE,136.57,"Industrial Products","Machinery - Electrical",+3.93%
+EOG,"Eog Resources",NYSE,136.25,Oils-Energy,"Oil - US Exploration & Product",+25.71%
+EQIX,"Equinix Inc",NASDAQ,1017.98,Finance,"REIT - Equity Trust Retail",+23.82%
+EQR,"Equity Residential",NYSE,68.65,Finance,"REIT - Equity Trust Resident",+10.92%
+EQT,"Eqt Corp",NYSE,49.3,Oils-Energy,"Oil - US Exploration & Product",-10.80%
+ERIE,"Erie Indemnity Company",NASDAQ,221.23,Finance,"Insurance - Brokers",-29.08%
+ES,"Eversource Energy",NYSE,74.16,Utilities,"Utility - Electric Power",+2.85%
+ESS,"Essex Property Trust",NYSE,295.71,Finance,"REIT - Equity Trust Resident",+15.46%
+ETN,"Eaton Corp",NYSE,409.58,"Industrial Products","Machinery - Electrical",+5.77%
+ETR,"Entergy Corp",NYSE,114.58,Utilities,"Utility - Electric Power",+17.65%
+EVRG,"Evergy Inc",NASDAQ,85.63,Utilities,"Utility - Electric Power",+9.28%
+EW,"Edwards Lifesciences Corp",NYSE,88.25,Medical,"Medical Instruments",+20.79%
+EXC,"Exelon Corp",NASDAQ,46.35,Utilities,"Utility - Electric Power",-2.80%
+EXE,"Expand Energy Corporation",NASDAQ,87.32,Oils-Energy,"Other Alt Energy",-15.20%
+EXPD,"Expeditors Intl",NYSE,177.82,Transportation,"Transportation - Services",+51.15%
+EXPE,"Expedia Group Inc",NASDAQ,268.66,"Consumer Discretionary","Leisure & Recreation Services",+23.03%
+EXR,"Extra Space Storage Inc",NYSE,145.79,Finance,"REIT - Equity Trust Other",-2.48%
+F,"Ford Motor Company",NYSE,14.25,Auto-Tires-Trucks,"Auto - Domestic",+20.88%
+FANG,"Diamondback Energy",NASDAQ,188.63,Oils-Energy,"Oil - US Exploration & Product",+33.03%
+FAST,"Fastenal Company",NASDAQ,45.22,"Industrial Products","Industrial Services",+7.15%
+FCX,"Freeport-Mcmoran Inc",NYSE,60.53,"Basic Materials","Mining - Non Ferrous",+43.59%
+FDS,"Factset Research Systems",NYSE,252.24,"Business Services","Business Information",-10.60%
+FDX,"Fedex Corp",NYSE,317.76,Transportation,"Transportation - Air Freight",+68.25%
+FDXF,"Fedex Freight Holding Company Inc",NYSE,142.19,Transportation,"Transportation - Services",N/A
+FE,"Firstenergy Corp",NYSE,48.96,Utilities,"Utility - Electric Power",+2.75%
+FFIV,"F5 Inc",NASDAQ,418.25,"Computers and Technology","Internet - Software",+26.21%
+FICO,"Fair Isaac and Company",NYSE,1213.31,"Computers and Technology","IT Services",-26.26%
+FIS,"Fidelity National Information Services",NYSE,41.41,"Business Services","Financial Transaction Services",-37.58%
+FISV,"Fiserv Inc",NASDAQ,50.49,"Business Services","Financial Transaction Services",-58.06%
+FITB,"Fifth Third Bancorp",NYSE,58.17,Finance,"Banks - Major Regional",+35.32%
+FIX,"Comfort Systems USA",NYSE,1739.49,Construction,"Building Prdcts - Air Heating",+103.18%
+FLEX,"Flextronics Intl Ltd",NASDAQ,126.76,"Computers and Technology","Electronics Products - Misc",+97.36%
+FOX,"Fox Corp Cl B",NASDAQ,50.45,"Consumer Discretionary","Broadcast - Radio & TV",-2.13%
+FOXA,"Fox Corp Cl A",NASDAQ,55.66,"Consumer Discretionary","Broadcast - Radio & TV",-3.08%
+FRT,"Federal Realty Investment Trust",NYSE,122.84,Finance,"REIT - Equity Trust Retail",+24.76%
+FSLR,"First Solar Inc",NASDAQ,223.94,Oils-Energy,Solar,-9.47%
+FTNT,"Fortinet Inc",NASDAQ,163.91,"Computers and Technology",Security,+96.85%
+FTV,"Fortive Corp",NYSE,60.56,"Computers and Technology","Electronic Test Equipment",+24.41%
+GD,"General Dynamics Corp",NYSE,367.35,Aerospace,"Aerospace - Defense",+10.50%
+GDDY,"Godaddy Inc",NYSE,90.27,"Computers and Technology","Internet Services - Delivery",-30.41%
+GE,"GE Aerospace",NYSE,357.21,Aerospace,"Aerospace - Defense",+18.40%
+GEHC,"GE Healthcare Technologies",NASDAQ,63.69,Medical,"Medical Products",-13.29%
+GEN,"Gen Digital Inc",NASDAQ,26.36,"Business Services","Technology Services",-2.13%
+GEV,"GE Vernova Inc",NYSE,1042.86,Oils-Energy,"Other Alt Energy",+65.92%
+GILD,"Gilead Sciences Inc",NASDAQ,132.04,Medical,"Medical - Biomedical",+12.11%
+GIS,"General Mills",NYSE,36.88,"Consumer Staples","Food - Misc & Diversified",-22.64%
+GL,"Globe Life Inc",NYSE,180.16,Finance,"Insurance - Accident & Health",+30.62%
+GLW,"Corning Inc",NYSE,171.26,"Computers and Technology","Communications Components",+95.50%
+GM,"General Motors Company",NYSE,77.42,Auto-Tires-Trucks,"Auto - Domestic",+33.50%
+GNRC,"Generac Holdings Inc",NYSE,223.4,"Industrial Products","Machinery - General Industrial",+15.48%
+GOOG,"Alphabet Cl C",NASDAQ,369.25,"Computers and Technology","Internet - Services",+47.38%
+GOOGL,"Alphabet Cl A",NASDAQ,370.6,"Computers and Technology","Internet - Services",+48.36%
+GPC,"Genuine Parts Company",NYSE,121.18,Retail-Wholesale,"Retail - Wholesale Auto Parts",-8.74%
+GPN,"Global Payments Inc",NYSE,77.95,"Business Services","Financial Transaction Services",-8.66%
+GRMN,"Garmin Ltd",NYSE,241.52,"Computers and Technology","Electronics Products - Misc",-2.37%
+GS,"Goldman Sachs Group",NYSE,1139.07,Finance,"Finance - Investment Brokers",+47.22%
+GWW,"W.W. Grainger",NYSE,1366.17,"Industrial Products","Industrial Services",+42.29%
+HAL,"Halliburton Company",NYSE,34.97,Oils-Energy,"Oil - Field Services",+55.45%
+HAS,"Hasbro Inc",NASDAQ,80.47,"Consumer Discretionary","Toys & Game & Hobby",+8.73%
+HBAN,"Huntington Bancshares",NASDAQ,18.17,Finance,"Banks - Midwest",+11.93%
+HCA,"Hca Holdings Inc",NYSE,380.41,Medical,"Medical Services",-9.95%
+HD,"Home Depot",NYSE,343.35,Retail-Wholesale,"Retail - Home Furniture",-11.75%
+HIG,"The Hartford Insurance Group",NYSE,134.63,Finance,"Insurance - Proprty & Casualty",+5.46%
+HII,"Huntington Ingalls Industries",NYSE,278.4,Aerospace,"Aerospace - Defense",-2.56%
+HLT,"Hilton Inc",NYSE,328.41,"Consumer Discretionary","Hotels & Motels",+23.82%
+HON,"Honeywell International",NASDAQ,222.27,Conglomerates,"Conglomerates - Div Operations",+10.44%
+HONA,"Honeywell Aerospace Inc",NASDAQ,213.88,Aerospace,"Aerospace - Defense Equipment",N/A
+HOOD,"Robinhood Markets Cl A",NASDAQ,115.56,Finance,"Finance - Investment Brokers",-14.60%
+HPE,"Hewlett Packard Enterprise",NYSE,46.58,"Computers and Technology","Computer - Integrated Systems",+84.17%
+HPQ,"HP Inc",NYSE,23.48,"Computers and Technology","Computer - Micro",-18.05%
+HRL,"Hormel Foods Corp",NYSE,25.3,"Consumer Staples","Food - Meat Products",+7.25%
+HSIC,"Henry Schein Inc",NASDAQ,87.61,Medical,"Medical - Dental Suppliers",+38.47%
+HST,"Host Marriott Financial Trust",NASDAQ,23.74,Finance,"REIT - Equity Trust Other",+43.09%
+HSY,"Hershey Foods Corp",NYSE,170.61,"Consumer Staples","Food - Confectionery",-10.75%
+HUBB,"Hubbell Inc B",NYSE,479.8,"Industrial Products","Machinery - Elect Utilities",+9.04%
+HUM,"Humana Inc",NYSE,410.51,Medical,"Medical - HMO",+57.27%
+HWM,"Howmet Aerospace Inc",NYSE,274.99,Aerospace,"Aerospace - Defense",+41.89%
+IBKR,"Interactive Brokers",NASDAQ,96.83,Finance,"Finance - Investment Brokers",+38.30%
+IBM,"Intl Business Machines",NYSE,213.56,"Computers and Technology","Computer - Integrated Systems",-24.09%
+ICE,"Intercontinental Exchange",NYSE,139.64,Finance,"Securities Exchanges",-11.17%
+IDXX,"Idexx Laboratories",NASDAQ,565.76,Medical,"Medical Instruments",-11.63%
+IEX,"Idex Corp",NYSE,222.59,"Industrial Products","Machinery - General Industrial",+35.39%
+IFF,"International Flavors & Fragrances",NYSE,74.9,"Basic Materials","Chemical - Specialty",+21.06%
+INCY,"Incyte Corp",NASDAQ,115.18,Medical,"Medical - Biomedical",+30.82%
+INTC,"Intel Corp",NASDAQ,101.81,"Computers and Technology","Semi General",+171.05%
+INTU,"Intuit Inc",NASDAQ,279.92,"Computers and Technology","Computer - Software",-56.88%
+INVH,"Invitation Homes Inc",NYSE,29.91,Finance,"REIT - Equity Trust Resident",+5.45%
+IP,"International Paper Company",NYSE,36.92,"Basic Materials","Paper & Related Products",-21.64%
+IQV,"Iqvia Holdings Inc",NYSE,208.77,Medical,"Medical Instruments",+2.62%
+IR,"Ingersoll Rand Inc",NYSE,78.98,"Industrial Products","Machinery - General Industrial",+2.29%
+IRM,"Iron Mountain Inc",NYSE,121.64,"Business Services","Business Information",+14.21%
+ISRG,"Intuitive Surg Inc",NASDAQ,390.47,Medical,"Medical Instruments",-10.26%
+IT,"Gartner Inc",NYSE,134.95,"Business Services",Consulting,-42.88%
+ITW,"Illinois Tool Works",NYSE,270.76,"Industrial Products","Machinery - General Industrial",+9.02%
+IVZ,"Invesco Limited",NYSE,30.09,Finance,"Finance - Investment Mgmt",+28.22%
+J,"Jacobs Engineering Group",NYSE,130.95,Construction,"Building & Construction - Misc",-18.68%
+JBHT,"J B Hunt Transport",NASDAQ,276.86,Transportation,"Transportation - Truck",+98.43%
+JBL,"Jabil Circuit",NYSE,318.83,"Computers and Technology","Electronic Manufacturing",+53.12%
+JCI,"Johnson Controls Intl",NYSE,141.55,Construction,"Building Products - Wood",+26.59%
+JKHY,"Jack Henry & Assoc",NASDAQ,148.5,"Computers and Technology","IT Services",-3.48%
+JNJ,"Johnson & Johnson",NYSE,248.25,Medical,"Large Cap Pharma",+31.35%
+JPM,"JP Morgan Chase & Company",NYSE,347.51,Finance,"Finance - Investment Brokers",+13.67%
+KDP,"Keurig Dr Pepper Inc",NASDAQ,30.54,"Consumer Staples","Beverages - Soft",+13.48%
+KEY,Keycorp,NYSE,23.59,Finance,"Banks - Major Regional",+32.71%
+KEYS,"Keysight Technologies",NYSE,321.53,"Computers and Technology","Electronics - Measuring Inst",+93.35%
+KHC,"Kraft Heinz Company",NASDAQ,25.31,"Consumer Staples","Food - Misc & Diversified",+0.67%
+KIM,"Kimco Realty Corp",NYSE,25.18,Finance,"REIT - Equity Trust Retail",+16.08%
+KKR,"KKR & Company LP",NYSE,101.38,Finance,"Finance - Investment Mgmt",-17.84%
+KLAC,"K L A-Tencor Corp",NASDAQ,221.3,"Computers and Technology","Electronics Products - Misc",+101.39%
+KMB,"Kimberly-Clark Corp",NASDAQ,107.36,"Consumer Staples","Consumer Prdts - Misc Staple",-10.39%
+KMI,"Kinder Morgan Inc",NYSE,32.2,Oils-Energy,"Oil - Production & Pipeline",+16.97%
+KO,"Coca-Cola Company",NYSE,83.04,"Consumer Staples","Beverages - Soft",+23.74%
+KR,"Kroger Company",NYSE,57.56,Retail-Wholesale,"Retail - Supermarket",-16.03%
+KVUE,"Kenvue Inc",NYSE,18.81,"Consumer Staples","Consumer Prdts - Misc Staple",+15.81%
+L,"Loews Corp",NYSE,112.89,Finance,"Insurance - Multi Line",+12.80%
+LDOS,"Leidos Holdings Inc",NYSE,108.33,"Computers and Technology","IT Services",-41.78%
+LEN,"Lennar Corp",NYSE,85.52,Construction,"Building - Residential & Comm",-30.28%
+LH,"Laboratory Corp of America",NYSE,274.97,Medical,"Medical Services",-2.68%
+LHX,"L3Harris Technologies",NYSE,288.46,Aerospace,"Aerospace - Defense",-0.61%
+LII,"Lennox International",NYSE,541.53,Construction,"Building Prdcts - Air Heating",+1.98%
+LIN,"Linde Plc",NASDAQ,515.96,"Basic Materials","Chemical - Specialty",+14.01%
+LITE,"Lumentum Holdings",NASDAQ,746.45,"Computers and Technology","Communications Components",+366.77%
+LLY,"Eli Lilly and Company",NYSE,1146,Medical,"Large Cap Pharma",+38.53%
+LMT,"Lockheed Martin Corp",NYSE,515.22,Aerospace,"Aerospace - Defense",+2.99%
+LNT,"Alliant Energy Corp",NASDAQ,75.13,Utilities,"Utility - Electric Power",+9.88%
+LOW,"Lowe's Companies",NYSE,211.15,Retail-Wholesale,"Retail - Home Furniture",-12.89%
+LRCX,"Lam Research Corp",NASDAQ,328.83,"Computers and Technology","Electronics - Semiconductors",+123.81%
+LULU,"Lululemon Athletica",NASDAQ,117.73,"Consumer Staples","Textile - Apparel",-29.39%
+LUV,"Southwest Airlines Company",NYSE,49.39,Transportation,"Transportation - Airline",+46.63%
+LVS,"Las Vegas Sands",NYSE,44.65,"Consumer Discretionary",Gaming,-8.89%
+LYB,"Lyondellbasell Industries NV",NYSE,57.63,"Basic Materials","Chemical - Diversified",+23.16%
+LYV,"Live Nation Entertainment",NYSE,180.88,"Consumer Discretionary","Movie & TV Production & Dist",+16.98%
+MA,"Mastercard Inc",NYSE,537.73,"Business Services","Financial Transaction Services",-3.93%
+MAA,"Mid-America Apartment Communities",NYSE,132.45,Finance,"REIT - Equity Trust Resident",+0.77%
+MAR,"Marriot Int Cl A",NASDAQ,369.64,"Consumer Discretionary","Hotels & Motels",+38.73%
+MAS,"Masco Corp",NYSE,78.19,Construction,"Building & Construction - Misc",+15.50%
+MCD,"McDonald's Corp",NYSE,267.08,Retail-Wholesale,"Retail - Restaurants",-12.47%
+MCHP,"Microchip Technology",NASDAQ,85.43,"Computers and Technology","Semi Analog & Mixed",+29.61%
+MCK,"Mckesson Corp",NYSE,807.61,Medical,"Medical - Dental Suppliers",+2.30%
+MCO,"Moody's Corp",NYSE,506.61,Finance,"Finance - Misc Services",+6.20%
+MDLZ,"Mondelez Intl Inc",NASDAQ,58.65,"Consumer Staples","Food - Misc & Diversified",-4.87%
+MDT,"Medtronic Inc",NYSE,81.15,Medical,"Medical Products",-14.86%
+MET,"Metlife Inc",NYSE,92.41,Finance,"Insurance - Multi Line",+13.27%
+META,"META Platforms Inc",NASDAQ,674.77,"Computers and Technology","Internet - Software",-5.81%
+MGM,"MGM Resorts International",NYSE,46.65,"Consumer Discretionary",Gaming,+45.41%
+MKC,"Mccormick & Company",NYSE,51.49,"Consumer Staples","Food - Misc & Diversified",-21.13%
+MLM,"Martin Marietta Materials",NYSE,573.99,Construction,"Building - CMT & CNT & AG",-10.94%
+MMM,"3M Company",NYSE,160.28,Conglomerates,"Conglomerates - Div Operations",+3.69%
+MNST,"Monster Beverage Corp",NASDAQ,98.45,"Consumer Staples","Beverages - Soft",+43.61%
+MO,"Altria Group",NYSE,71.08,"Consumer Staples",Tobacco,+9.76%
+MOS,"Mosaic Company",NYSE,22.74,"Basic Materials",Fertilizers,-24.25%
+MPC,"Marathon Petroleum Corp",NYSE,296.02,Oils-Energy,"Oil - Refining and Marketing",+61.60%
+MPWR,"Monolithic Power Sys",NASDAQ,1340.99,"Computers and Technology","Semi Analog & Mixed",+31.41%
+MRK,"Merck & Company",NYSE,123.43,Medical,"Large Cap Pharma",+47.25%
+MRNA,"Moderna Inc",NASDAQ,67.18,Medical,"Medical - Biomedical",+141.16%
+MRSH,"Marsh & Mclennan Companies",NYSE,176.71,"Business Services","Business Services",-13.00%
+MRVL,"Marvell Technology Inc",NASDAQ,206.72,"Computers and Technology","Electronics - Semiconductors",+131.23%
+MS,"Morgan Stanley",NYSE,229.23,Finance,"Finance - Investment Brokers",+39.28%
+MSCI,"MSCI Inc",NYSE,626.63,Finance,"Finance - Investment Mgmt",+14.58%
+MSFT,"Microsoft Corp",NASDAQ,396.35,"Computers and Technology","Computer - Software",-23.16%
+MSI,"Motorola Solutions",NYSE,409.01,"Computers and Technology","Wireless Equipment",-6.84%
+MTB,"M&T Bank Corp",NYSE,247.74,Finance,"Banks - Major Regional",+33.26%
+MTD,"Mettler-Toledo International",NYSE,1326.66,Medical,"Medical Instruments",+1.20%
+MU,"Micron Technology",NASDAQ,904.43,"Computers and Technology","Computer - Integrated Systems",+363.41%
+NCLH,"Norwegian Cruise Ord",NYSE,19.91,"Consumer Discretionary","Leisure & Recreation Services",-15.80%
+NDAQ,"Nasdaq Inc",NASDAQ,91.47,Finance,"Securities Exchanges",+1.46%
+NDSN,"Nordson Corp",NASDAQ,286.32,"Industrial Products","Machinery - General Industrial",+22.85%
+NEE,"Nextera Energy",NYSE,88.79,Utilities,"Utility - Electric Power",+3.59%
+NEM,"Newmont Mining Corp",NYSE,95.2,"Basic Materials","Mining - Gold",+0.47%
+NFLX,"Netflix Inc",NASDAQ,73.86,"Consumer Discretionary","Broadcast - Radio & TV",-38.31%
+NI,"NiSource Inc",NYSE,46.04,Utilities,"Utility - Electric Power",+6.22%
+NKE,"Nike Inc",NYSE,42.82,"Consumer Staples","Shoes and Related Apparel",-37.07%
+NOC,"Northrop Grumman Corp",NYSE,531.29,Aerospace,"Aerospace - Defense",-12.72%
+NOW,"Servicenow Inc",NYSE,104.96,"Computers and Technology","IT Services",-41.89%
+NRG,"NRG Energy",NYSE,137.24,Utilities,"Utility - Electric Power",-19.49%
+NSC,"Norfolk Southern Corp",NYSE,325.9,Transportation,"Transportation - Rail",+12.05%
+NTAP,"Netapp Inc",NASDAQ,157.6,"Computers and Technology","Computer - Storage Devices",+30.65%
+NTRS,"Northern Trust Corp",NASDAQ,189.46,Finance,"Banks - Major Regional",+46.62%
+NUE,"Nucor Corp",NYSE,236,"Basic Materials","Steel - Producers",+71.65%
+NVDA,"Nvidia Corp",NASDAQ,208.91,"Computers and Technology","Semi General",+15.26%
+NVR,"NVR Inc",NYSE,6505.81,Construction,"Building - Residential & Comm",-14.92%
+NWS,"News Corp Cl B",NASDAQ,31.61,"Consumer Discretionary","Movie & TV Production & Dist",+6.05%
+NWSA,"News Corp Cl A",NASDAQ,27.93,"Consumer Discretionary","Movie & TV Production & Dist",+5.55%
+NXPI,"Nxp Semiconductors",NASDAQ,279.34,"Computers and Technology","Semi Analog & Mixed",+27.65%
+O,"Realty Income Corp",NYSE,63.92,Finance,"REIT - Equity Trust Retail",+7.52%
+ODFL,"Old Dominion Freight Line",NASDAQ,226.53,Transportation,"Transportation - Truck",+67.08%
+OKE,"Oneok Inc",NYSE,90.86,Oils-Energy,"Oil Gas Prod Pipeline MLP",+32.12%
+OMC,"Omnicom Group Inc",NYSE,81.28,"Business Services","Advertising Marketing Services",+2.72%
+ON,"On Semiconductor",NASDAQ,92.49,"Computers and Technology","Semi Analog & Mixed",+81.63%
+ORCL,"Oracle Corp",NYSE,132.85,"Computers and Technology","Computer - Software",-56.34%
+ORLY,"O'Reilly Automotive",NASDAQ,83.9,Retail-Wholesale,"Retail - Wholesale Auto Parts",-17.88%
+OTIS,"Otis Worldwide Corp",NYSE,72.18,"Industrial Products","Machinery - General Industrial",-21.60%
+OXY,"Occidental Petroleum",NYSE,53.29,Oils-Energy,"Oil - US Integrated",+27.30%
+PANW,"Palo Alto Networks",NASDAQ,355.76,"Computers and Technology",Security,+72.35%
+PAYX,"Paychex Inc",NASDAQ,110.42,"Computers and Technology","Internet - Software",-12.85%
+PCAR,"Paccar Inc",NASDAQ,123.49,Auto-Tires-Trucks,"Auto - Domestic",+28.76%
+PCG,"Pacific Gas & Electric Company",NYSE,17.47,Utilities,"Utility - Electric Power",+4.95%
+PEG,"Public Service Enterprise Group",NYSE,80.59,Utilities,"Utility - Electric Power",-4.66%
+PEP,"Pepsico Inc",NASDAQ,136.1,"Consumer Staples","Beverages - Soft",-10.10%
+PFE,"Pfizer Inc",NYSE,24.71,Medical,"Large Cap Pharma",+1.33%
+PFG,"Principal Financial Group",NASDAQ,113.08,Finance,"Insurance - Multi Line",+39.99%
+PG,"Procter & Gamble Company",NYSE,148.04,"Consumer Staples","Consumer Prdts - Misc Staple",+0.38%
+PGR,"Progressive Corp",NYSE,206.58,Finance,"Insurance - Proprty & Casualty",-8.04%
+PH,"Parker-Hannifin Corp",NYSE,952.72,"Industrial Products","Machinery - General Industrial",+28.37%
+PHM,Pultegroup,NYSE,126.61,Construction,"Building - Residential & Comm",+1.31%
+PKG,"Packaging Corp of America",NYSE,227.68,"Industrial Products","Containers - Paper Products",+8.73%
+PLD,"Prologis Inc",NYSE,142.95,Finance,"REIT - Equity Trust Other",+15.75%
+PLTR,"Palantir Technologies Cl A",NASDAQ,133.66,"Computers and Technology","Internet - Software",-25.48%
+PM,"Philip Morris International",NYSE,180.14,"Consumer Staples",Tobacco,+14.10%
+PNC,"PNC Bank",NYSE,254.5,Finance,"Finance - Investment Brokers",+39.85%
+PNR,"Pentair Ltd",NYSE,64.19,"Business Services","Waste Removal Svcs",-42.55%
+PNW,"Pinnacle West Capital Corp",NYSE,107.76,Utilities,"Utility - Electric Power",+15.52%
+PODD,"Insulet Corp",NASDAQ,162.15,Medical,"Medical Products",-48.11%
+PPG,"PPG Industries",NYSE,115.85,"Basic Materials","Chemical - Specialty",+16.13%
+PPL,"PPL Corp",NYSE,35.96,Utilities,"Utility - Electric Power",-5.00%
+PRU,"Prudential Financial Inc",NYSE,115.11,Finance,"Insurance - Multi Line",+11.76%
+PSA,"Public Storage",NYSE,317.37,Finance,"REIT - Equity Trust Other",+5.21%
+PSKY,"Paramount Skydance Corp Cl B",NASDAQ,9.17,"Consumer Discretionary","Media Conglomerates",-47.33%
+PSX,"Phillips 66",NYSE,194.43,Oils-Energy,"Oil - Refining and Marketing",+51.08%
+PTC,"Ptc Inc",NASDAQ,123.82,"Computers and Technology","Computer - Software",-38.80%
+PWR,"Quanta Services",NYSE,647.47,"Industrial Products","Engineering & R&D Services",+46.39%
+PYPL,"Paypal Holdings",NASDAQ,55.15,"Business Services","Financial Transaction Services",-18.95%
+Q,"Qnity Electronics Inc",NYSE,137.73,"Computers and Technology","Electronics - Semiconductors",N/A
+QCOM,"Qualcomm Inc",NASDAQ,177.88,"Computers and Technology","Electronics - Semiconductors",+8.19%
+RCL,"Royal Caribbean Cruises Ltd",NYSE,294.75,"Consumer Discretionary","Leisure & Recreation Services",-5.72%
+REG,"Regency Centers Corp",NASDAQ,80.48,Finance,"REIT - Equity Trust Retail",+11.09%
+REGN,"Regeneron Pharmaceuticals",NASDAQ,662.85,Medical,"Medical - Biomedical",+15.24%
+RF,"Regions Financial Corp",NYSE,31.5,Finance,"Banks - Southeast",+27.00%
+RJF,"Raymond James Financial",NYSE,170.89,Finance,"Finance - Investment Brokers",+4.78%
+RL,"Ralph Lauren Corp",NYSE,376.69,"Consumer Staples","Textile - Apparel",+17.84%
+RMD,"Resmed Inc",NYSE,199.04,Medical,"Medical Products",-26.24%
+ROK,"Rockwell Automation Inc",NYSE,460.77,"Computers and Technology","Electronics Products - Misc",+29.72%
+ROL,"Rollins Inc",NYSE,44.45,Construction,"Building - Maint & Service",-20.44%
+ROP,"Roper Industries",NASDAQ,349.75,"Computers and Technology","IT Services",-30.16%
+ROST,"Ross Stores Inc",NASDAQ,226.4,Retail-Wholesale,"Retail - Discount",+44.33%
+RSG,"Republic Services",NYSE,218.93,"Business Services","Waste Removal Svcs",-0.75%
+RTX,"Rtx Corp",NYSE,195.03,Aerospace,"Aerospace - Defense",+23.90%
+RVTY,"Revvity Inc",NYSE,111.32,Medical,"Medical Services",+20.31%
+SBAC,"SBA Communications",NASDAQ,186.69,Finance,"REIT - Equity Trust Other",-4.11%
+SBUX,"Starbucks Corp",NASDAQ,106.42,Retail-Wholesale,"Retail - Restaurants",+28.51%
+SCHW,"The Charles Schwab Corp",NYSE,103.1,Finance,"Finance - Investment Brokers",+9.33%
+SHW,"Sherwin-Williams Company",NYSE,332.97,"Basic Materials","Chemical - Specialty",-0.17%
+SJM,"J.M. Smucker Company",NYSE,108.79,"Consumer Staples","Food - Misc & Diversified",+4.81%
+SLB,"Slb Limited",NYSE,47.44,"Business Services","Technology Services",+44.98%
+SMCI,"Super Micro Computer",NASDAQ,26.72,"Computers and Technology","Computer - Storage Devices",-50.80%
+SNA,"Snap-On Inc",NYSE,404.25,"Consumer Discretionary","Tools - Hand Held",+21.28%
+SNDK,"Sandisk Corp",NASDAQ,1591.2,"Computers and Technology","Computer - Storage Devices",+964.99%
+SNPS,"Synopsys Inc",NASDAQ,421.92,"Computers and Technology","Computer - Software",-3.14%
+SO,"Southern Company",NYSE,95.15,Utilities,"Utility - Electric Power",-4.31%
+SOLV,"Solventum Corporation",NYSE,78.36,Medical,"Medical Services",+9.77%
+SPG,"Simon Property Group",NYSE,222.34,Finance,"REIT - Equity Trust Retail",+24.76%
+SPGI,"S&P Global Inc",NYSE,444.81,Finance,"Securities Exchanges",-7.65%
+SRE,Sempra,NYSE,93.03,Oils-Energy,"Other Alt Energy",+1.03%
+STE,"Steris Corp",NYSE,213.63,Medical,"Medical Instruments",-9.52%
+STLD,"Steel Dynamics Inc",NASDAQ,233.6,"Basic Materials","Steel - Producers",+58.99%
+STT,"State Street Corp",NYSE,185.05,Finance,"Banks - Major Regional",+58.78%
+STX,"Seagate Technology Holdings",NASDAQ,810.01,"Computers and Technology","Computer - Integrated Systems",+265.22%
+STZ,"Constellation Brands",NYSE,132.15,"Consumer Staples","Beverages - Alcohol",-4.99%
+SW,"Smurfit Westrock Plc",NYSE,43.65,"Basic Materials","Paper & Related Products",+4.31%
+SWK,"Stanley Black & Decker",NYSE,87.5,"Industrial Products","Machinery - Tools & Related",+28.59%
+SWKS,"Skyworks Solutions",NASDAQ,56.81,"Computers and Technology","Semi Radio Frequency",-23.94%
+SYF,"Synchrony Financial",NYSE,74.29,Finance,"Finance - Misc Services",+2.81%
+SYK,"Stryker Corp",NYSE,315.8,Medical,"Medical Products",-14.51%
+SYY,"Sysco Corp",NYSE,81.65,"Consumer Staples","Food - Misc & Diversified",+2.00%
+T,"AT&T Inc",NYSE,21.42,Utilities,"Wireless National",-17.70%
+TAP,"Molson Coors Brewing",NYSE,39.67,"Consumer Staples","Beverages - Alcohol",-14.60%
+TDG,"Transdigm Group Inc",NYSE,1221.9,Aerospace,"Aerospace - Defense Equipment",-1.67%
+TDY,"Teledyne Technologies",NYSE,621.28,Aerospace,"Aerospace - Defense Equipment",+9.03%
+TECH,"Bio-Techne Corp",NASDAQ,71.46,Medical,"Medical - Biomedical",+19.87%
+TEL,"Te Connectivity Ltd",NYSE,200.61,"Computers and Technology","Electronics - Misc Components",-10.52%
+TER,"Teradyne Inc",NASDAQ,336.09,"Computers and Technology","Electronics Products - Misc",+134.33%
+TFC,"Truist Financial Corp",NYSE,52.97,Finance,"Banks - Major Regional",+22.24%
+TGT,"Target Corp",NYSE,138.3,Retail-Wholesale,"Retail - Discount",+52.50%
+TJX,"TJX Companies",NYSE,151.16,Retail-Wholesale,"Retail - Discount",+4.13%
+TKO,"Tko Group Holdings Cl A",NYSE,186.07,"Consumer Discretionary","Movie & TV Production & Dist",-2.25%
+TMO,"Thermo Fisher Scientific",NYSE,538.6,Medical,"Medical Instruments",+1.32%
+TMUS,"T-Mobile US",NASDAQ,187.88,Utilities,"Wireless National",-16.93%
+TPL,"Texas Pacific Land Trust",NYSE,413.32,Oils-Energy,"Other Alt Energy",+33.94%
+TPR,"Tapestry Inc",NYSE,140.06,Retail-Wholesale,"Retail - Apparel & Shoes",+19.83%
+TRGP,"Targa Resources",NYSE,276.47,Oils-Energy,"Oil Refining & Marketing MLP",+83.86%
+TRMB,"Trimble Navigation",NASDAQ,51.87,"Industrial Products","Machinery - General Industrial",-34.04%
+TROW,"T Rowe Price Group",NASDAQ,118.36,Finance,"Finance - Investment Mgmt",+12.27%
+TRV,"The Travelers Companies",NYSE,330.27,Finance,"Insurance - Proprty & Casualty",+22.78%
+TSCO,"Tractor Supply Company",NASDAQ,30.87,Retail-Wholesale,"Retail - Misc & Diversified",-44.72%
+TSLA,"Tesla Inc",NASDAQ,397.64,Auto-Tires-Trucks,"Auto - Domestic",-9.59%
+TSN,"Tyson Foods",NYSE,57.65,"Consumer Staples","Food - Meat Products",+9.51%
+TT,"Trane Technologies Plc",NYSE,479.55,"Business Services","Technology Services",+12.20%
+TTD,"Trade Desk Inc",NASDAQ,19.22,"Computers and Technology","Internet - Services",-62.20%
+TTWO,"Take-Two Interactive",NASDAQ,243.4,"Consumer Discretionary",Gaming,-6.54%
+TXN,"Texas Instruments",NASDAQ,299.82,"Computers and Technology","Semi General",+69.63%
+TXT,"Textron Inc",NYSE,88.52,Aerospace,"Aerospace - Defense",+7.25%
+TYL,"Tyler Technologies",NYSE,304.43,"Computers and Technology","Internet Software Services",-39.20%
+UAL,"United Airlines Holdings",NASDAQ,121.48,Transportation,"Transportation - Airline",+16.39%
+UBER,"UBER Technologies Inc",NYSE,72.94,"Computers and Technology","Internet - Services",-22.39%
+UDR,"United Dominion Realty Trust",NYSE,39.73,Finance,"REIT - Equity Trust Resident",+10.02%
+UHS,"Universal Health Services",NYSE,148.72,Medical,"Medical - Hospitals",-27.62%
+ULTA,"Ulta Beauty Inc",NASDAQ,467.83,Retail-Wholesale,"Retail - Misc & Diversified",-13.39%
+UNH,"Unitedhealth Group",NYSE,421.12,Medical,"Medical - HMO",+16.76%
+UNP,"Union Pacific Corp",NYSE,287.24,Transportation,"Transportation - Rail",+26.83%
+UPS,"United Parcel Service",NYSE,114.28,Transportation,"Transportation - Air Freight",+35.89%
+URI,"United Rentals",NYSE,1053.7,Construction,"Building & Construction - Misc",+2.22%
+USB,"U.S. Bancorp",NYSE,63.11,Finance,"Banks - Major Regional",+35.63%
+V,"Visa Inc",NYSE,358.63,"Business Services","Financial Transaction Services",+4.07%
+VEEV,"Veeva Systems Inc",NYSE,194.97,Medical,"Medical Information Systems",-32.26%
+VICI,"Vici Properties Inc",NYSE,26.52,Finance,"REIT - Equity Trust Other",-15.00%
+VLO,"Valero Energy Corp",NYSE,288.43,Oils-Energy,"Oil - Refining and Marketing",+79.65%
+VLTO,"Veralto Corporation",NYSE,91.56,"Business Services","Waste Removal Svcs",-10.25%
+VMC,"Vulcan Materials Company",NYSE,290.85,Construction,"Building - CMT & CNT & AG",-4.74%
+VRSK,"Verisk Analytics Inc",NASDAQ,191.91,"Business Services","Business Information",-21.01%
+VRSN,"Verisign Inc",NASDAQ,269.07,"Computers and Technology","Internet Software Services",+1.46%
+VRT,"Vertiv Holdings",NYSE,299.74,"Computers and Technology","IT Services",+62.97%
+VRTX,"Vertex Pharmaceutic",NASDAQ,478.17,Medical,"Medical - Biomedical",+17.75%
+VST,"Vistra Energy Corp",NYSE,158.86,Utilities,"Utility - Electric Power",-24.50%
+VTR,"Ventas Inc",NYSE,92.96,Finance,"REIT - Equity Trust Other",+34.58%
+VTRS,"Viatris Inc",NASDAQ,16.51,Medical,"Medical Services",+65.08%
+VZ,"Verizon Communications",NYSE,42.86,Utilities,"Wireless National",+6.55%
+WAB,"Wabtec Corp",NYSE,259.47,Transportation,"Transportation - Equip & Lease",+30.46%
+WAT,"Waters Corp",NYSE,378.18,Medical,"Medical Instruments",+13.33%
+WBD,"Discovery Inc Series A",NASDAQ,27.17,"Consumer Discretionary","Broadcast - Radio & TV",+47.59%
+WDAY,"Workday Inc",NASDAQ,142.28,"Computers and Technology","Internet - Software",-39.27%
+WDC,"Western Digital Corp",NASDAQ,506.96,"Computers and Technology","Computer - Storage Devices",+317.55%
+WEC,"Wisconsin Energy Corp",NYSE,113.75,Utilities,"Utility - Electric Power",-2.58%
+WELL,"Welltower Inc",NYSE,234.5,Finance,"REIT - Equity Trust Other",+36.23%
+WFC,"Wells Fargo & Company",NYSE,86.71,Finance,"Finance - Investment Brokers",+0.40%
+WM,"Waste Management",NYSE,233.89,"Business Services","Waste Removal Svcs",+9.93%
+WMB,"Williams Companies",NYSE,74.83,Oils-Energy,"Oil - Production & Pipeline",+17.80%
+WMT,"Walmart Inc",NASDAQ,113.91,Retail-Wholesale,"Retail - Supermarket",+4.73%
+WRB,"W.R. Berkley Corp",NYSE,70.42,Finance,"Insurance - Proprty & Casualty",-7.34%
+WSM,Williams-Sonoma,NYSE,223,Retail-Wholesale,"Retail - Home Furniture",+16.58%
+WST,"West Pharmaceutical Services",NYSE,360.34,Medical,"Medical - Dental Suppliers",+36.41%
+WTW,"Willis Towers Watson Public",NASDAQ,285.81,Finance,"Insurance - Brokers",-15.36%
+WY,"Weyerhaeuser Company",NYSE,24.05,Construction,"Building Products - Wood",+1.26%
+WYNN,"Wynn Resorts Ltd",NASDAQ,97.1,"Consumer Discretionary",Gaming,-18.08%
+XEL,"XCEL Energy Inc",NASDAQ,79.4,Utilities,"Utility - Electric Power",-2.54%
+XOM,"Exxonmobil Holdings Corp",NYSE,143.09,Oils-Energy,"Oil - International Integrated",+28.26%
+XYL,"Xylem Inc",NYSE,121.44,"Business Services","Waste Removal Svcs",-17.50%
+XYZ,"Block Inc",NYSE,82.33,"Computers and Technology","Internet - Software",+8.84%
+YUM,"Yum! Brands",NYSE,154.6,Retail-Wholesale,"Retail - Restaurants",+6.75%
+ZBH,"Zimmer Biomet Holdings",NYSE,90.8,Medical,"Medical Products",-8.60%
+ZBRA,"Zebra Technologies",NASDAQ,254.46,"Industrial Products","Machinery - Thermal Processing",-14.24%
+ZTS,"Zoetis Inc Cl A",NYSE,74.63,Medical,"Medical - Drugs",-47.54%
+"Downloaded from Barchart.com as of 07-15-2026 12:43pm CDT"

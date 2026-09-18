@@ -22,12 +22,14 @@ def convertir_a_excel(df):
 
     return output.getvalue()
 
-
 if st.button("Actualizar Ranking"):
 
     with st.spinner("Calculando..."):
 
         ranking = calcular_rsc()
+
+        # Añadir ranking
+        ranking.insert(0, "Posición", range(1, len(ranking) + 1))
 
     st.success("Completado")
 

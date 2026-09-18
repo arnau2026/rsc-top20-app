@@ -22,28 +22,26 @@ def convertir_a_excel(df):
 
     return output.getvalue()
 
-if st.button("Actualizar Ranking"):
+with st.spinner("Calculando ranking..."):
 
-    with st.spinner("Calculando..."):
+    ranking = calcular_rsc()
 
-        ranking = calcular_rsc()
+    # Añadir posición
+    ranking.insert(0, "Posición", range(1, len(ranking) + 1))
 
-        # Añadir ranking
-        ranking.insert(0, "Posición", range(1, len(ranking) + 1))
+st.success("Ranking actualizado")
 
-    st.success("Completado")
+st.dataframe(
+    ranking,
+    use_container_width=True,
+    hide_index=True
+)
 
-    st.dataframe(
-        ranking,
-        use_container_width=True,
-        hide_index=True
-    )
+excel = convertir_a_excel(ranking)
 
-    excel = convertir_a_excel(ranking)
-
-    st.download_button(
-        label="Descargar Excel",
-        data=excel,
-        file_name=f"{datetime.now().strftime('%Y-%m-%d')}_ranking.xlsx",
-        mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-    )
+st.download_button(
+    label="Descargar Excel",
+    data=excel,
+    file_name=f"{datetime.now().strftime('%Y-%m-%d')}_ranking.xlsx",
+    mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+)

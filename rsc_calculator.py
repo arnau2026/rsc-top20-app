@@ -47,14 +47,16 @@ def calcular_rsc():
         interval="1mo",
         auto_adjust=False,
         group_by="ticker",
-        progress=False
+        progress=False,
+        threads=False
     )
 
     data_fut_daily = yf.download(
         "ES=F",
         period="5y",
         interval="1d",
-        progress=False
+        progress=False,
+        threads=False
     )["Close"]
 
     data_fut = data_fut_daily.resample("ME").last().dropna()

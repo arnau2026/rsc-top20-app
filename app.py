@@ -17,40 +17,19 @@ st.write("Ranking de fuerza relativa respecto al futuro del S&P500.")
 def convertir_a_excel(df):
     output = BytesIO()
 
-    with __import__("pandas").ExcelWriter(
-        output,
-        engine="openpyxl"
-    ) as writer:
-        df.to_excel(
-            writer,
-            index=False,
-            sheet_name="Ranking"
-        )
+    with __import__("pandas").ExcelWriter(output, engine="openpyxl") as writer:
+        df.to_excel(writer, index=False, sheet_name="Ranking")
 
     return output.getvalue()
 
+with st.spinner("Calculando ranking..."):
 
-progress_bar = st.progress(0)
-status_text = st.empty()
+    ranking = calcular_rsc()
 
+    # Añadir posición
+    ranking.insert(0, "Posición", range(1, len(ranking) + 1))
 
-def actualizar_progreso(porcentaje, mensaje):
-    progress_bar.progress(int(porcentaje))
-    status_text.text(mensaje)
-
-
-ranking = calcular_rsc(
-    callback=actualizar_progreso
-)
-
-ranking.insert(
-    0,
-    "Posición",
-    range(1, len(ranking) + 1)
-)
-
-progress_bar.progress(100)
-status_text.success("✅ Ranking actualizado")
+st.success("Ranking actualizado")
 
 st.dataframe(
     ranking,

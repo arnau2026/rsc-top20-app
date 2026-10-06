@@ -33,11 +33,14 @@ def convertir_a_excel(df):
 progress_bar = st.progress(0)
 status_text = st.empty()
 
+
+def actualizar_progreso(porcentaje, mensaje):
+    progress_bar.progress(int(porcentaje))
+    status_text.text(mensaje)
+
+
 ranking = calcular_rsc(
-    callback=lambda p, txt: (
-        progress_bar.progress(p),
-        status_text.text(txt)
-    )
+    callback=actualizar_progreso
 )
 
 ranking.insert(
@@ -47,7 +50,7 @@ ranking.insert(
 )
 
 progress_bar.progress(100)
-status_text.text("✅ Ranking actualizado")
+status_text.success("✅ Ranking actualizado")
 
 st.dataframe(
     ranking,

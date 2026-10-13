@@ -38,7 +38,7 @@ def _extract_close(data, ticker):
 def _download_monthly(tickers):
     return yf.download(
         tickers,
-        period="1y",
+        period="2y",
         interval="1mo",
         auto_adjust=False,
         group_by="ticker",
@@ -50,7 +50,7 @@ def _download_monthly(tickers):
 def _benchmark_monthly():
     data = yf.download(
         BENCHMARK,
-        period="1y",
+        period="2y",
         interval="1d",
         auto_adjust=False,
         progress=False,

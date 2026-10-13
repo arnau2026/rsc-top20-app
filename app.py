@@ -1,47 +1,59 @@
 import streamlit as st
+import pandas as pd
 from io import BytesIO
 from datetime import datetime
+from rsc_calculator import calcular_rsc, calcular_rsc_etf
 
-from rsc_calculator import calcular_rsc
-
-st.set_page_config(
-    page_title="RSC Ranking",
-    layout="wide"
-)
-
+st.set_page_config(page_title="RSC Ranking", page_icon="📈", layout="wide")
 st.title("📈 RSC Ranking")
+st.caption("Fuerza relativa respecto al futuro del S&P 500 (ES=F).")
 
-st.write("Ranking de fuerza relativa respecto al futuro del S&P500.")
 
-
-def convertir_a_excel(df):
+def to_excel(df, sheet_name):
     output = BytesIO()
-
-    with __import__("pandas").ExcelWriter(output, engine="openpyxl") as writer:
-        df.to_excel(writer, index=False, sheet_name="Ranking")
-
+    with pd.ExcelWriter(output, engine="openpyxl") as writer:
+        df.to_excel(writer, index=False, sheet_name=sheet_name)
     return output.getvalue()
 
-with st.spinner("Calculando ranking..."):
 
-    ranking = calcular_rsc()
+with st.spinner("Calculando ranking de acciones..."):
+    acciones = calcular_rsc()
 
-    # Añadir posición
-    ranking.insert(0, "Posición", range(1, len(ranking) + 1))
+if not acciones.empty:
+    acciones.insert(0, "Posición", range(1, len(acciones) + 1))
 
-st.success("Ranking actualizado")
-
-st.dataframe(
-    ranking,
-    use_container_width=True,
-    hide_index=True
-)
-
-excel = convertir_a_excel(ranking)
-
+st.subheader("Ranking de acciones")
+st.dataframe(acciones, width="stretch", hide_index=True, height=620)
 st.download_button(
-    label="Descargar Excel",
-    data=excel,
-    file_name=f"{datetime.now().strftime('%Y-%m-%d')}_ranking.xlsx",
-    mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    label="⬇️ Descargar Excel acciones",
+    data=to_excel(acciones, "Ranking Acciones"),
+    file_name=f"{datetime.now():%Y-%m-%d}_ranking_acciones.xlsx",
+    mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    width="stretch",
 )
+
+st.divider()
+st.subheader("Ranking de ETF UCITS")
+with st.spinner("Calculando ranking de ETF UCITS..."):
+    ucits = calcular_rsc_etf("ETF UCITS.xlsx")
+
+if not ucits.empty:
+    ucits = ucits.drop(
+        columns=["Fecha de inicio", "Patrimonio millones de euros", "Domicilio del fondo"],
+        errors="ignore",
+    )
+    first_columns = ["Ticker", "Date", "Nombre del fondo", "Close", "RSCValor", "Divisa fondo"]
+    remaining_columns = [c for c in ucits.columns if c not in first_columns]
+    ucits = ucits[first_columns + remaining_columns]
+    ucits.insert(0, "Posición", range(1, len(ucits) + 1))
+
+    st.dataframe(ucits, width="stretch", hide_index=True, height=620)
+    st.download_button(
+        label="⬇️ Descargar Excel ETF UCITS",
+        data=to_excel(ucits, "Ranking ETF UCITS"),
+        file_name=f"{datetime.now():%Y-%m-%d}_ranking_etf_ucits.xlsx",
+        mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        width="stretch",
+    )
+else:
+    st.warning("No se han podido cargar los ETF UCITS.")

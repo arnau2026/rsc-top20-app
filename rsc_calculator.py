@@ -4,9 +4,9 @@ import pandas as pd
 import yfinance as yf
 from ta.trend import WMAIndicator
 
-PERIOD = 10
-WMA_WINDOW = 8
-BENCHMARK = "ES=F"
+PERIOD = 2
+WMA_WINDOW = 6
+BENCHMARK = "SPY"
 
 
 def _clean_series(series):

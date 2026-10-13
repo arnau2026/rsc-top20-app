@@ -6,7 +6,7 @@ from rsc_calculator import calcular_rsc, calcular_rsc_etf
 
 st.set_page_config(page_title="RSC Ranking", page_icon="📈", layout="wide")
 st.title("📈 RSC Ranking")
-st.caption("Fuerza relativa respecto al futuro del S&P 500 (ES=F).")
+st.caption("Fuerza relativa respecto al SPY.")
 
 
 def to_excel(df, sheet_name):

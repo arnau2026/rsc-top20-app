@@ -4,8 +4,8 @@ import pandas as pd
 import yfinance as yf
 from ta.trend import WMAIndicator
 
-PERIOD = 2
-WMA_WINDOW = 6
+PERIOD = 10
+WMA_WINDOW = 4
 BENCHMARK = "SPY"
 
 
